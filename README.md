@@ -1,7 +1,8 @@
 # Design Patterns in QT and C++ **(WIP)**
 
 ## Project Description: 
- - **Design Pattern Demonstrations in OOP using QT and C++**
+
+- **Design Pattern Demonstrations in OOP using QT and C++**
 
 This project is a Qt application titled "Design Patterns in Qt and C++" that shows some of the most common design patterns using Qt and C++.
 This project is an interactive application that showcases the most common design patterns in Object-Oriented Programming (OOP). 
@@ -12,36 +13,39 @@ the implementation of that design pattern in real-time.
 ## Key Features:
 1. **Event-Driven Interface:**
 
-    - The main screen serves as the central hub for exploring design patterns. Each button on the screen is linked to a different design pattern, which is executed when the button is clicked. This intuitive interface allows users to engage directly with the underlying OOP concepts.
+- The main screen serves as the central hub for exploring design patterns. Each button on the screen is linked to a different design pattern, which is executed when the button is clicked. This intuitive interface allows users to engage directly with the underlying OOP concepts.
 
 2. **Design Patterns Included:**
 
-    - **Creational Patterns:**
+- **Creational Patterns:**
 
-        - [**Singleton:**](singleton/README.md) Demonstrated using the Logger class. When the 'Singleton' button is pressed, the application ensures that only one instance of the Logger class is created, preventing the creation of multiple log files during the application's runtime.
-        - [**Factory Method:**](factory_method/README.md) Provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
-        - [**Abstract Factory:**](abstract_factory/README.md)Demonstrates how to provide an interface for creating families of related or dependent objects without specifying their concrete classes.
-    - **Structural Patterns:**
+    - [**Singleton:**](singleton/README.md) Demonstrated using the Logger class. When the 'Singleton' button is pressed, the application ensures that only one instance of the Logger class is created, preventing the creation of multiple log files during the application's runtime.
+    - [**Factory Method:**](factory_method/README.md) Provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
+    - [**Abstract Factory:**](abstract_factory/README.md)Demonstrates how to provide an interface for creating families of related or dependent objects without specifying their concrete classes.
+    - [**Builder:**](builder/README.md) Demonstrates how to provide an interface for constructing complex objects step by step, allowing the creation of different representations of the same object without specifying their concrete details.    
 
-        - **Adapter:** Allows the interface of an existing class to be used as another interface. This pattern demonstrates how to wrap a class to provide a different interface for use.
-        - **Decorator:** Showcases how to attach additional responsibilities to an object dynamically. This is useful for adding behavior to objects without altering their structure.
-        - **Facade:** Illustrates how to provide a simplified interface to a complex subsystem, making it easier to interact with the system.
-    - **Behavioral Patterns:**
+- **Structural Patterns:**
 
-        - **Observer:** Demonstrates how a subject (the Logger class, for example) maintains a list of its dependents and notifies them automatically of any state changes.
-        - **Strategy:** Allows the definition of a family of algorithms, encapsulating each one, and making them interchangeable. This pattern is demonstrated through a dynamic selection of algorithms at runtime.
-        - **Command:** Demonstrates how to encapsulate a request as an object, allowing for parameterization and queuing of requests.
+    - **Adapter:** Allows the interface of an existing class to be used as another interface. This pattern demonstrates how to wrap a class to provide a different interface for use.
+    - **Decorator:** Showcases how to attach additional responsibilities to an object dynamically. This is useful for adding behavior to objects without altering their structure.
+    - **Facade:** Illustrates how to provide a simplified interface to a complex subsystem, making it easier to interact with the system.
+
+- **Behavioral Patterns:**
+
+    - **Observer:** Demonstrates how a subject (the Logger class, for example) maintains a list of its dependents and notifies them automatically of any state changes.
+    - **Strategy:** Allows the definition of a family of algorithms, encapsulating each one, and making them interchangeable. This pattern is demonstrated through a dynamic selection of algorithms at runtime.
+    - **Command:** Demonstrates how to encapsulate a request as an object, allowing for parameterization and queuing of requests.
 
 3. **Interactive Demonstrations:**
 
-    - Each pattern demonstration is fully interactive, allowing users to see the effects of the pattern in action. For example, pressing the 'Singleton' button will trigger the Singleton pattern implementation, and the user can observe how the application prevents multiple instances of the Logger class.
+- Each pattern demonstration is fully interactive, allowing users to see the effects of the pattern in action. For example, pressing the 'Singleton' button will trigger the Singleton pattern implementation, and the user can observe how the application prevents multiple instances of the Logger class.
 
 4. **Comprehensive Coverage:**
 
-    - The project covers a wide range of design patterns across different classifications:
-        - **Creational Patterns:** Focus on object creation mechanisms.
-        - **Structural Patterns:** Deal with object composition and the relationships between entities.
-        - **Behavioral Patterns:** Concerned with object collaboration and the delegation of responsibilities.
+- The project covers a wide range of design patterns across different classifications:
+    - **Creational Patterns:** Focus on object creation mechanisms.
+    - **Structural Patterns:** Deal with object composition and the relationships between entities.
+    - **Behavioral Patterns:** Concerned with object collaboration and the delegation of responsibilities.
 
 >The clear interactive examples make complex patterns accessible and easy to grasp.
 By providing hands-on experience with design patterns, this project serves as both a learning resource and a reference guide for implementing common design patterns in software development.
